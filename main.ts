@@ -20,8 +20,10 @@
 //   - Everything still held at the end is flattened by the harness.
 //
 // Tuned only on the kit's dev window (the 24 hours before the competition
-// opened). Dev result there: net PnL +$25.73 on $1,000, 5 trades, max
-// drawdown 1.57%. Neighbouring parameters (dip 95-115 bps, trail 80-120 bps,
+// opened). Dev result there, verified with the kit's grade-local (process
+// driver): net PnL +$25.729887 on $1,000, 5 trades, win rate 1.000, max
+// drawdown 0.0157, 0 rejected, L1 regrade reproduced byte for byte.
+// Neighbouring parameters (dip 95-115 bps, trail 80-120 bps,
 // spike 150-250 bps) all stay clearly profitable on the same window, so the
 // result is a plateau, not a single lucky point. Baseline bots on the same
 // window: buy-and-hold +$1.07, momentum +$2.45, EMA-cross -$106.21.
